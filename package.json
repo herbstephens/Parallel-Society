@@ -1,0 +1,23 @@
+{
+  "name": "parallel-society",
+  "version": "1.0.0",
+  "description": "An operating system for human coordination — built on TIME Protocol",
+  "author": "Democracy Earth Foundation",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herbstephens/parallel-society"
+  },
+  "homepage": "https://democracy.earth",
+  "keywords": [
+    "time-protocol",
+    "governance",
+    "ubi",
+    "parallel-society",
+    "near",
+    "ethereum",
+    "waku",
+    "logos",
+    "democracy"
+  ]
+}

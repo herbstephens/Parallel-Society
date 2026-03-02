@@ -1,0 +1,21 @@
+[package]
+name = "time-token"
+version = "1.0.0"
+authors = ["Democracy Earth Foundation <hello@democracy.earth>"]
+edition = "2021"
+description = "TIME Protocol token contract for NEAR — 1 TIME = 1 verified hour of human work"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+near-sdk = "5.0.0"
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true
